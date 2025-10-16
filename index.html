@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla con Estilos</title>
+    <link rel="stylesheet" href="../iconos/fontawesome-free-7.1.0-web/fontawesome-free-7.1.0-web/css/all.css">
+
+    <style>
+        table {
+            margin: auto;
+            margin-top: 50px;
+
+            width: 80%;
+
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 16px;
+
+            border-collapse: collapse;
+        }
+
+        table th,
+        table td {
+            border: 1px solid #dee2e6;
+            padding: 5px 10px;
+        }
+
+        table th,
+        table td:first-child {
+            background-color: #17a2b8;
+            color: #fff;
+            font-weight: 600;
+            width: 100px;
+        }
+
+        table td i {
+            margin-right: 15px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        table td i:hover {
+            opacity: 0.7;
+        }
+
+        table td i:nth-child(1) {
+            color: #17a2b8;
+        }
+
+        table td i:nth-child(2) {
+            color: #ffc107;
+        }
+
+        table td i:nth-child(3) {
+            color: #dc3545;
+            margin-right: 0px;
+        }
+
+        table tr:nth-child(odd) {
+            background-color: rgba(23, 162, 184, 0.1);
+        }
+
+        table tr:hover {
+            opacity: 0.7;
+        }
+
+        table td i:hover {
+            opacity: 0.7;
+        }
+
+        
+        
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th> ID </th>
+                <th> Nombre(s) </th>
+                <th> Apellido </th>
+                <th> Correo electronico </th>
+                <th> Opciones </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>12545</td>
+                <td>Luis Raul</td>
+                <td>Hernandez Flores</td>
+                <td>raulflores@gmail.com</td>
+                <td>
+                    <i class="fa-solid fa-circle-info"></i>
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    <i class="fa-regular fa-trash-can"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>12546</td>
+                <td>Maria Fernanda</td>
+                <td>Lopez Garcia</td>
+                <td>mariagarcia@gmail.com</td>
+                <td>
+                    <i class="fa-solid fa-circle-info"></i>
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    <i class="fa-regular fa-trash-can"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>12547</td>
+                <td>Carlos Eduardo</td>
+                <td>Martinez Sanchez</td>
+                <td>carlossanchez@gmail.com</td>
+                <td>
+                    <i class="fa-solid fa-circle-info"></i>
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    <i class="fa-regular fa-trash-can"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>12548</td>
+                <td>Ana Isabel</td>
+                <td>Ramirez Torres</td>
+                <td>anaramirez@gmail.com</td>
+                <td>
+                    <i class="fa-solid fa-circle-info"></i>
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    <i class="fa-regular fa-trash-can"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>12549</td>
+                <td>Jose Antonio</td>
+                <td>Gonzalez Lopez</td>
+                <td>josegonzalez@gmail.com</td>
+                <td>
+                    <i class="fa-solid fa-circle-info"></i>
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    <i class="fa-regular fa-trash-can"></i>
+                </td>
+            </tr>
+        </tbody>
+
+
+    </table>
+    
+</body>
+
+</html>
